@@ -85,7 +85,7 @@ header{
 /*Requirement 9*/
 #logo{
    /*Your code here.*/
-   animation: logo_grow 5s 1;
+   animation: logo_grow 15s 1;
 }
 
 /*Keyframes for animation*/
