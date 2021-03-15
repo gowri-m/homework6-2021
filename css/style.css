@@ -85,16 +85,14 @@ header{
 /*Requirement 9*/
 #logo{
    /*Your code here.*/
-   animation-name: logo_grow;
-   animation-duration: 15s;
-   animation-iteration-count: 1;
+   animation: logo_grow 15s 1;
 }
 
 /*Keyframes for animation*/
 @-webkit-keyframes logo_grow{
   /*Your code here.*/
-  from{width: 25px;}
-  to{width: 420px;}
+  from{width: 25px; opacity: 0%;}
+  to{width: 420px; opacity: 100%;}
 
 }
 
